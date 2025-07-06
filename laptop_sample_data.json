@@ -1,0 +1,54 @@
+[
+  {
+    "input_1": 
+    {
+      "Manufacturer": "Apple",
+      "ModelName": "MacBook Air",
+      "Category": "Ultrabook",
+      "ScreenSize": 13.3,
+      "ScreenSpec": "IPS Panel Retina Display 2560x1600",
+      "CPU": "Intel Core i5 1.6GHz",
+      "RAM": 16,
+      "Storage": "512GB SSD",
+      "GPU": "Intel Iris Plus Graphics 640",
+      "OperatingSystem": "Mac OS",
+      "OperatingSystemVersion": "X",
+      "Weight": 1.30
+    },
+    "expected_result_1": 15916984.77
+  },
+  {
+    "input_2": {
+      "Manufacturer": "Dell",
+      "ModelName": "XPS 15 9510",
+      "Category": "Notebook",
+      "ScreenSize": 15.6,
+      "ScreenSpec": "IPS Panel Full HD 1920x1080",
+      "CPU": "Intel Core i7 11800H 2.3GHz",
+      "RAM": 8,
+      "Storage": "512GB SSD + 1TB HDD",
+      "GPU": "Intel UHD Graphics 620",
+      "OperatingSystem": "Windows",
+      "OperatingSystemVersion": "10",
+      "Weight": 1.55
+    },
+    "expected_result_2": 10535387.1
+  },
+  {
+    "input_3": {
+      "Manufacturer": "MSI",
+      "ModelName": "GS63VR 7RG",
+      "Category": "Gaming",
+      "ScreenSize": 15.6,
+      "ScreenSpec": "IPS Panel Full HD 1920x1080",
+      "CPU": "Intel Core i5 7300HQ 2.5GHz",
+      "RAM": 16,
+      "Storage": "512GB SSD +  1TB HDD",
+      "GPU": "Nvidia GeForce GTX 1060",
+      "OperatingSystem": "No OS",
+      "OperatingSystemVersion": "No OS",
+      "Weight": 2.94
+    },
+    "expected_result_3": 14933429.86
+  }
+]

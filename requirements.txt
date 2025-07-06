@@ -1,0 +1,11 @@
+pandas==2.3.0           # Latest as of June 5, 2025 
+numpy==1.26.4           # Compatible with pandas 2.x
+matplotlib==3.8.0       # (Latest standard release)
+seaborn==0.13.2         # (Latest standard release)
+optuna==4.3.0           # Latest major 4.x release as of Apr 2025
+lightgbm==4.6.0         # Latest release as of Feb 15, 2025
+scikit-learn==1.7.0     # Latest as of Jun 5, 2025 
+joblib==1.5.1           # Latest as of May 23, 2025
+fastapi==0.115.14       # Latest as of Jun 26, 2025 
+uvicorn==0.23.2         # (Latest version)
+pydantic==2.6.4         # (Latest version)
