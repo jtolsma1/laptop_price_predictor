@@ -79,17 +79,31 @@ laptop_price_predictor/
 In terminal, execute:
 
 **Clone the Repo**
-* `git clone https://github.com/jtolsma1/portfolio/laptop_price_predictor`
-* `cd laptop_price_predictor`
+```
+git clone https://github.com/jtolsma1/laptop_price_predictor
+cd laptop_price_predictor
+```
+**Set Up Virtual Environment**
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+If using `pyenv`, select Python 3.12.11 or a comparable version
 
-**Set Up Environment**
-* `conda create -n laptop_env python=3.12`
-* `conda activate laptop_env`
-* `pip install -r requirements.txt`
+```
+pyenv local 3.12.11
+```
 
+**Install Dependencies**
+```
+pip install --upgrade pip
+pip install -r requirements.txt
+```
 **Run the API**
-* `uvicorn main:app --reload`
-* Then open your browser to http://127.0.0.1:8000/docs to access the API
+
+* Execute `uvicorn laptop_price_app:app --reload` in terminal
+
+* Open a browser window to http://127.0.0.1:8000/docs to access the API
 
 
 * Click **"Try It Out"** to request model predictions through the API ![Where to find 'try it out' button](laptop_predictor_files/API_Instructions_1.png) 
